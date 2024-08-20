@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;0,900;1,900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+<body class="todo-list-project">
+<div class="todo-list-wrapper">
+    <h2>To do List</h2>
+    <form action="">
+        <input type="text" placeholder="Add New Task" id="task-title" class="task-input" required/>
+        <input type="date" id="task-date" class="task-date" required/>
+        <input type="submit" class="button add-task" value="Add!"/>
+        <button class="toggle-dark-mode">Dark Mode</button>
+    </form>
+    <ul class="todo-list">
+        <p class="lead">Get your stuff done! </p>
+        <li class="todo-task">
+            <span class="task-title">Read a Book</span>
+            <a href="#" class="button toggle-color" data-color="blue">B</a>
+            <a href="#" class="button toggle-color" data-color="green">G</a>
+            <a href="#" class="button toggle-color" data-color="red">Y</a>
+            <a href="#" class="button toggle-complete" data-status="mark-completed"><i class="fas fa-check"></i></a>
+            <a class="button remove"><i class="fas fa-trash"></i></a>
+        </li>
+        <li class="todo-task">
+            <span class="task-title">Buy Grocery</span>
+            <a href="#" class="button toggle-color" data-color="blue">B</a>
+            <a href="#" class="button toggle-color" data-color="green">G</a>
+            <a href="#" class="button toggle-color" data-color="red">Y</a>
+            <a href="#" class="button toggle-complete" data-status="mark-completed"><i class="fas fa-check"></i></a>
+            <a class="button remove"><i class="fas fa-trash"></i></a>
+        </li>
+        <li class="todo-task">
+            <span class="task-title">Watch Movies</span>
+            <a href="#" class="button toggle-color" data-color="blue">B</a>
+            <a href="#" class="button toggle-color" data-color="green">G</a>
+            <a href="#" class="button toggle-color" data-color="red">Y</a>
+            <a href="#" class="button toggle-complete" data-status="mark-completed"><i class="fas fa-check"></i></a>
+            <a class="button remove"><i class="fas fa-trash"></i></a>
+        </li>
+    </ul>
+</div>
+</body>
+<script src="./script.js"></script>
+
+</body>
+</html>
